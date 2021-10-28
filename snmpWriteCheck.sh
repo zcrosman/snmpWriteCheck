@@ -1,6 +1,5 @@
 #!/bin/bash
 
-ipFile="/home/kali/Documents/IPs.txt"
 if [ $# -eq 0 ]; then
     echo "No arguments provided"
     echo "Use the format - ./snmpWriteCheck <path/to/IPlist>"
