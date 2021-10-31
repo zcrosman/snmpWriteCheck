@@ -2,6 +2,8 @@
 
 if [ $# -eq 0 ]; then
     echo "No arguments provided"
+    echo "======================================[ usage ]======================================"
+    echo
     echo "Use the format - ./snmpWriteCheck <path/to/IPlist>"
     echo "Example: ./snmpWriteCheck /home/user/Documents/IP.lst"
     exit 1
